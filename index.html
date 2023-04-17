@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="view/style.css"> <!--CHAMAR O ARQUIVO ONDE TEM O CSS-->
+    <script src="view/javascript.js"></script> <!--CHAMAR O ARQUIVO ONDE TEM O JAVASCRIPT-->
+</head>
+<body>   
+        <div class="left-container"> 
+            <div class="image-left">
+                <img src="view/imagens/main_image.png" alt="">
+            </div>
+            <label id="left-text">Transforme suas ideias em realidade.</label>
+            <label id="left-subtext">Comece de graça e consiga oportunidades atrativas da comunidade </label>
+        </div>
+        <div class="right-container">
+            <div class="image-logo"> 
+                <img src="view/imagens/logo.png" alt="">
+            </div>
+            <label id="right-text">Faça seu login aqui</label>
+            <label id="right-subtext">Veja como estão seus negócios</label>
+            <div class="form-container">
+                <form method="POST" action="">
+                    <label id="login-pass">Login</label>  
+                    <!-- DEFININDO TIPO,NUMERO MÍNIMO/MÁXIMO DE CARACTERES, SE CAMPOS SÃO OBRIGATÓRIOS E PADRÃO DE CARACTERES-->
+                    <input type="email" name="email" placeholder="@gmail.com" minlength="3" maxlength="40" required><br> 
+                    <label id="login-pass">Senha</label> 
+                    <input type="password" name="senha" id="senha" placeholder="**********"><br><br>
+                    <!-- CHAMA FUNÇÃO DE MOSTRAR SENHA AO CLICAR NA CHECKBOX -->
+                    <input type="checkbox"  id="mostrarsenhacheck" onclick="mostraSenha()"> 
+                    <label id="show-pass"> Mostrar senha</label>
+                </form>
+                <input class="btnenviar" type="submit" value="Entrar" >     
+            <div>
+            <a href="" class="link"> Esqueceu a senha?</a>
+            <p> Não é registrado? <a href="view/cadastrar.php" class="link"> Crie sua conta</a> </p>
+        </div>
+</body>
+</html>

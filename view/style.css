@@ -1,0 +1,121 @@
+/*nunito sans : semibold 600 italic, extra bold 800*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,800;1,600&family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }  
+:root{
+/*VARIAVEIS COM CORES ATRIBUIDAS A ELAS*/
+    --bg-color-left : #FFE6C9;
+    --bg-color-right : #FFFFFF;
+    --color-title-left: #73114B;
+    --color-title-right: #525252; 
+    --button-color : #7F265B;
+}
+body{
+    background-color: var(--bg-color-right);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.left-container{
+    background-color: var(--bg-color-left);
+   display: flex;
+   flex-direction: column;
+   color: var(--color-title-left);
+   width: 50%;
+   height: 100%
+
+}
+.left-container .image-left > img {
+    margin-left: 7em;
+    max-width: 50%;
+}
+#left-text{
+    font-size: 2rem;
+    margin-left: 1.5em;
+}
+#left-subtext{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 1.5em;
+}
+.right-container{
+    background-color: var(--bg-color-right);
+    color: var(--color-title-right);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Tilt Neon', cursive;
+}
+.right-container .image-logo{
+    max-width: 100%;
+}
+#right-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2em;
+    margin-left: 1em;
+}
+#right-subtext{
+    font-size: 1em;
+    opacity: 90%;
+}
+#login-pass{
+    opacity: 80%;
+    line-height: 3em;
+}
+input{ 
+    color: var(--color-title-left);
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+}
+#show-pass{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5em;
+    margin-bottom: 1.0em;
+}
+.link{
+    text-decoration: none;
+    color: var(--color-title-right);
+}
+.link:hover{
+    color: var(--color-title-left);
+}
+.btnenviar{
+    line-height: 1.8em;
+    margin-left: 1.0em;
+    margin-bottom: 1.0em;
+    margin-top: 1.0em;
+    color: var(--bg-color-right);
+    background-color: var(--color-title-left);
+    border: none;
+}
+.btnenviar:hover{
+    background-color: var(--button-color);
+    color: var(--bg-color-right);
+}
+.main-container{
+    width:30%;
+    height: 50%;
+}
+
+#right-text-cadastrar{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2em;
+    margin-left: 3em;
+    background-color: var(--button-color);
+    color: var(--bg-color-right);
+    border-radius: 0.2em;
+}
+
+
