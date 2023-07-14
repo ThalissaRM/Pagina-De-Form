@@ -1,5 +1,5 @@
 
-Neste projeto foquei em como cadastrar os dados do usuário no banco de dados, com validação de dados tanto na parte doservidor como na frente, seguindo o padrão de pastas MVC funcionais um pouco no design da página de login e formulário e para isso usei como referência o design disponível no figma, pensado por Tony Sebastian.
+Neste projeto foquei em como cadastrar os dados do usuário no banco de dados, com validação de dados tanto na parte do servidor como na interface do usuário, seguindo o padrão de pastas MVC funcionais um pouco no design da página de login e formulário e para isso usei como referência o design disponível no figma, pensado por Tony Sebastian.
 O conteúdo aqui desenvolvido é apenas para fins acadêmicos.
 
 ---------------------------------------------------------------------------
